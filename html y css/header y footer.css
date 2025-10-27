@@ -1,0 +1,15 @@
+.menu { background-color: aquamarine;
+list-style-type: none;
+display: flex;
+justify-content: space-around;
+margin-top: -10px;
+margin-left: -10px;
+margin-right: -10px;
+
+
+}
+ 
+.logo{ width: 30px;
+height: 30px;
+border-radius: 50%;
+align-items: center;}
