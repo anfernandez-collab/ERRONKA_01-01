@@ -8,6 +8,13 @@
     <h1>Formulario de Inscripción</h1>
     <form action= "/submit" target= "_blank">
         <label for="Eventos"> Eventos</label>
+        <select id="Eventos" name="Eventos">
+            <option value="Encuentros de amantes del automotor"> Encuentros de amantes del automotor</option>
+            <option value="Tour"> Tour</option>
+            <option value="Encuentro nocturno"> Encuentro nocturno</option>
+            <option value="Exposicion"> Exposición</option>
+            <br><br>
+        </select><br><br>
       <label for="Nombre"> Nombre:</label>
         <input type="text" id="Nombre" name="Nombre"><br><br> 
       <label for="Apellidos"> Apellidos:</label>
@@ -22,10 +29,7 @@
         <label for="telefono">Teléfono:</label>
             <input type= "tel" id="telefono" name="telefono"><br><br>
         <p>¿Tienes alguna enfermedad o necesidad específica?</p>
-        <label for="Elija una opcion"> Elija una opción</label>
-            <select id="opcion" name="opcion">
-                <option value="Si">Si</option>
-                <option value="No">No</option>
+            <textarea id="necesidad" name="necesidad" rows="4" cols="50" placeholder="Escribe aquí..."></textarea><br><br>
         <p>¿Tienes vehículo propio?</p>
         <input type="checkbox" id="vehiculo1" name="vehiculo1" value="Coche">
             <label for="vehiculo1"> Tengo un coche</label><br>
@@ -34,9 +38,7 @@
         <input type="checkbox" id="vehiculo3" name="vehiculo3" value="Patinete electrico">
             <label for="vehiculo3"> Tengo un Patinete Electrico</label><br>
         <input type="checkbox" id="vehiculo4" name="vehiculo4" value="No tengo">
-            <label for="vehiculo4"> No tengo</label><br>
-                
-            
-                
-                    
-        
+            <label for="vehiculo4"> No tengo</label><br><br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
