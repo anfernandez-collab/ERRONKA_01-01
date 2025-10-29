@@ -1,17 +1,23 @@
 
   body {
-    background-color: rgb(20, 85, 143);
+    background-color: rgb(16, 67, 110);
   }
   h1 {
     text-align: center;
     color: white;
   }
   form {
-    background-color: rgb(240, 248, 255);
+    background-color: rgb(146, 181, 209);
     padding: 30px;
     border-radius: 8px;
     max-width: 600px;
     margin: auto;
+  }
+  label{
+    color: white
+  }
+  p{
+    color: white;
   }
   input[type=text], input[type=email], input[type=tel] {
   border: 2px solid rgb(117, 200, 248);
@@ -42,5 +48,26 @@
     cursor: pointer;
   }
   button:hover {
-    background-color: #8e2e2e;
+    background-color: #c5a1a1;
+  }
+  button.modificar {
+    background-color: rgb(228, 237, 245);
+    color:#b13f3f;
+  }
+  button.modificar:hover {
+    background-color: #155880;
+    color: white;
+  }
+  button.cancelar{
+    background-color: grey;
+    color: white;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  button.cancelar:hover {
+    background-color: darkgrey;
+  }
+  a href {
+    color: 
   }
