@@ -1,0 +1,46 @@
+
+  body {
+    background-color: rgb(20, 85, 143);
+  }
+  h1 {
+    text-align: center;
+    color: white;
+  }
+  form {
+    background-color: rgb(240, 248, 255);
+    padding: 30px;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: auto;
+  }
+  input[type=text], input[type=email], input[type=tel] {
+  border: 2px solid rgb(117, 200, 248);
+  border-radius: 8px;
+  min-width: 45%;
+  margin-bottom: 10px;
+  border: 3px solid #b13f3f;
+  border-radius: 4px;
+  padding: 10px;
+}
+  select {
+  border: 2px solid rgb(117, 200, 248);
+  min-width: 45%;
+  margin-bottom: 10px;
+  border: 3px solid #b13f3f;
+  border-radius: 4px;
+  padding: 10px;
+}
+  textarea {
+  border: 3px solid #b13f3f;
+  border-radius: 8px;
+}
+  button {
+    background-color: #b13f3f;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #8e2e2e;
+  }
