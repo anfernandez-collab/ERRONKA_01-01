@@ -48,26 +48,13 @@
     cursor: pointer;
   }
   button:hover {
-    background-color: #c5a1a1;
+    background-color: #8f6f6f;
   }
-  button.modificar {
-    background-color: rgb(228, 237, 245);
-    color:#b13f3f;
+  a {
+    color: rgb(255, 255, 255);
   }
-  button.modificar:hover {
-    background-color: #155880;
+  div {
     color: white;
-  }
-  button.cancelar{
-    background-color: grey;
-    color: white;
-    border-radius: 8px;
-    padding: 10px 20px;
-    cursor: pointer;
-  }
-  button.cancelar:hover {
-    background-color: darkgrey;
-  }
-  a href {
-    color: 
+    text-align: center;
+    margin-top: 20px;
   }
