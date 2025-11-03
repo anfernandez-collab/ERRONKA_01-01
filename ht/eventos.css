@@ -1,5 +1,3 @@
-
-
 .imagenes img { width: 300px;
                 height: 200px;
             border-radius:10px; }
@@ -9,7 +7,7 @@
          }
 
 body { background-color: black;
-       color:white;}
+       color: white}
        
        
 .cl1 {   background-color: rgba(114, 10, 10, 0.63);  
@@ -60,3 +58,27 @@ body { background-color: black;
       .cl2:hover  {  transform: scale(1.1);    }
       .cl3:hover  {  transform: scale(1.1);    }
       .cl4:hover  {  transform: scale(1.1);    }
+
+      .imag { position: absolute; 
+              top: 675px;
+              right: 325px;
+              width: 50px;
+              height: 50px;
+            border-radius:10px;
+          
+       }
+        .imag img { 
+              width: 200px;
+              height: 200px;
+            border-radius:10px;
+            
+       }
+
+       .titulo { position: absolute; 
+              top: 575px;
+              right: 700px;
+              width: 50px;
+              height: 50px;
+            border-radius:10px;
+          
+       }
