@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de Inscripción</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="header y footer.css">
+</head>
+<body>
+   <nav>
+    <ul>
+      <li class="desplegable"><a href="eventos.html" class="des1">INICIO</a>
+        <div class="conte">
+           <a href="descripcion de ver coches.html">Encuentro de amantes del automotor</a> 
+            <a href="tour.html">tour</a> 
+            <a href="circuitodenoche.html">Encuentro nocturno en pista</a> 
+            <a href="exposicion.html">exposicion</a> 
+        </div></li>
+        <li> <a href="FormularioInscripción.html">INSCRIPCION</a></li>
+        <li><a href="aboutus.html">ABOUT US</a></li>
+    </ul>
+  </nav>  
+  
+  
+  <form action="http://localhost/webcreator/procesar.php" method="post">
+    <h1>Formulario de Inscripción</h1>
+
+    <p><strong>Selecciona los eventos a los que deseas asistir:</strong></p>
+    <label><input type="checkbox" name="Encuentros_amantes_automotor" value="1"> Encuentros de amantes del automotor</label><br>
+    <label><input type="checkbox" name="Tour" value="1"> Tour</label><br>
+    <label><input type="checkbox" name="Encuentro_nocturno" value="1"> Encuentro nocturno</label><br>
+    <label><input type="checkbox" name="Exposicion" value="1"> Exposicion</label><br><br>
+
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required><br><br>
+
+    <label for="apellido">Apellido:</label>
+    <input type="text" id="apellido" name="apellido" required><br><br>
+
+    <label for="dni">DNI:</label>
+    <input type="text" id="dni" name="dni" required><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="fecha_nacimiento">Fecha de nacimiento:</label>
+    <input type="date" id="fecha_nacimiento" name="fecha_nacimiento"><br><br>
+
+    <label for="telefono">Teléfono:</label>
+    <input type="tel" id="telefono" name="telefono"><br><br>
+
+    <label for="enfermedad">¿Tienes alguna enfermedad o necesidad específica?</label><br>
+    <textarea id="Enfermedad_necesidad" name="Enfermedad_necesidad" rows="4" cols="50" placeholder="Escribe aquí..."></textarea><br><br>
+
+    <p>¿Qué tipo de vehículo tienes?</p>
+    <select id="tipo_coche" name="tipo_coche">
+        <option value="">-- Selecciona --</option>
+        <option value="Coche">Coche</option>
+        <option value="Bicicleta">Bicicleta</option>
+        <option value="Patinete eléctrico">Patinete eléctrico</option>
+        <option value="No tengo">No tengo</option>
+    </select><br><br>
+
+    <button type="submit">Enviar</button>
+
+  </form>
+
+      <footer>
+  <div class="footer-wrapper">
+
+    <!-- Columna 1 -->
+    <div class="footer-col left">
+      <h3>Web Creators</h3>
+      <p>
+        20008 Donostia-San Sebastián<br><br>
+        Tel: (+34) 943 55 66 78<br>
+        WhatsApp: (+34) 677 455 678
+      </p>
+    </div>
+
+    <!--columna 2  -->
+    <div class="footer-col center-left">
+      <h3>Empresa asociada a creación de webs sobre:</h3>
+      <p>
+        Eventos<br>
+        Campañas<br>
+        Celebraciones<br>
+        Negocios
+      </p>
+    </div>
+    
+    <!-- columna 3-->
+     <div class="footer-col center-right">
+      <h3>Compra online</h3>
+      <p>
+        <a href="#">Tienda</a><br>
+        <a href="#">Métodos de pago</a><br>
+        <a href="#">Devoluciones</a>
+      </p>
+    </div>
+    
+    <!-- columna 4-->
+     <div class="footer-col right">
+      <h3>Síguenos en:</h3>
+      <div class="social-icons">
+        <a href="https://www.facebook.com/"><img src="i.facebook.png"  width="40"></a>
+        <a href="https://x.com/"><img src="i.twiter.png" alt="Twitter" width="50"></a>
+        <a href="https://www.instagram.com/?hl=es"><img src="i.instagram.png"  width="30"></a>
+        <a href="https://www.youtube.com/"><img src="i.YT.png"  width="30"></a>
+        <a href="https://www.linkedin.com/login"><img src="i.linkedin.png"  width="40"></a>
+      </div>
+      <p>Gracias<br>por tu visita.<br><strong>¡Hasta pronto!</strong></p>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2025 WebCreator | <a href="#">Aviso legal</a> · <a href="#">Privacidad</a> · <a href="#">Cookies</a></p>
+  </div>
+</footer>
+
+</body>
+</html>

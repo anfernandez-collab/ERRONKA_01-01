@@ -1,0 +1,21 @@
+ body {
+    background-color: rgb(16, 67, 110);
+  color: white;}
+   .imagen img {   
+              width: 300px;
+              height: 300px;
+              border-radius:10px;
+           }
+
+  .imagen {      position: absolute; 
+                 top: 675px;
+                 right: 225px;   }
+
+  .imagene {      position: absolute; 
+                  top: 700px;
+                  right: 225px;   }
+ 
+ 
+  .imagene img {      width: 300px;
+              height: 300px;
+              border-radius:10px;   }
